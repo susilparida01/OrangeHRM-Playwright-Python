@@ -1,0 +1,37 @@
+STEPS TO CHECKIN CODE FROM LOCAL TO GITHUB
+==========================================
+
+1. Create a Repository on GitHub:
+   - Go to https://github.com/ and create a new repository.
+   - Copy the repository URL (e.g., https://github.com/username/repo.git).
+
+2. Open Terminal/PowerShell:
+   - Navigate to the project root: D:\Susil-Study\PlaywrightAutomation
+
+3. Initialize and Push Code:
+   Run the following commands one by one:
+
+   # Initialize local git repository
+   git init
+
+   # Add all files to staging
+   git add .
+
+   # Commit the changes
+   git commit -m "Initial commit: OrangeHRM Playwright-Python POM Automation"
+
+   # Set the branch to main
+   git branch -M main
+
+   # Link local repo to GitHub (Replace <REPO_URL> with your copied URL)
+   git remote add origin <REPO_URL>
+
+   # Push to GitHub
+   git push -u origin main
+
+4. Future Updates:
+   Whenever you make changes, run:
+   
+   git add .
+   git commit -m "Your description of changes"
+   git push
