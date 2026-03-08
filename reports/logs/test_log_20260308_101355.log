@@ -1,0 +1,4 @@
+2026-03-08 10:14:06,916 - PIMPage - INFO - Clicking on element: <Locator frame=<Frame name= url='https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList'> selector='internal:role=button[name="Add"i]'>
+2026-03-08 10:14:08,830 - PIMPage - INFO - Filling text 'John' into: <Locator frame=<Frame name= url='https://opensource-demo.orangehrmlive.com/web/index.php/pim/addEmployee'> selector='internal:attr=[placeholder="First Name"i]'>
+2026-03-08 10:14:09,709 - PIMPage - INFO - Filling text 'Doe' into: <Locator frame=<Frame name= url='https://opensource-demo.orangehrmlive.com/web/index.php/pim/addEmployee'> selector='internal:attr=[placeholder="Last Name"i]'>
+2026-03-08 10:14:09,729 - PIMPage - INFO - Clicking on element: <Locator frame=<Frame name= url='https://opensource-demo.orangehrmlive.com/web/index.php/pim/addEmployee'> selector='internal:role=button[name="Save"i]'>
